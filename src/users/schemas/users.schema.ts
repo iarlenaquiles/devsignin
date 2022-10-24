@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import * as mongoose from 'mongoose';
 import * as bcrypt from 'bcrypt';
 
 export const UsersSchema = new mongoose.Schema({
